@@ -1,0 +1,93 @@
+
+
+
+.login {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 150px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}
+
+form h2{
+    font-size: 25px;
+    color: #323232;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.input-container{
+    position: relative;
+}
+
+.input-container > i {
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #02B1F4;
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+    top: 4px;
+    left: 10px;
+}
+
+.input-container > input, textarea{
+    padding: 17px 15px 17px 65px;
+    width: 90%;
+    margin-bottom: 25px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 2px solid #02B1F4;
+    font-size: 16px;
+    outline: none;
+    color: #323232;
+}
+
+::placeholder{
+    color: #a0a0a0;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #02B1F4;
+    padding: 20px 40px;
+    width: 117%;
+    border: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.registro{
+    background-color: #02B1F4;
+    padding: 20px 40px;
+    width: 30%;
+    border: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.registro a{
+    text-decoration: none;
+}
+
+.registro a:hover{
+    background-color: #0216f4;
+    color: #060606;
+}
+
+
+
